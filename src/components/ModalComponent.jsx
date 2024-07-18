@@ -36,14 +36,13 @@ export default function ModalComponent({
           top: "50%",
           left: "50%",
           transform: "translate(-50%, -50%)",
-          width: 800,
           maxHeight: "80vh",
           overflowY: "auto",
           bgcolor: "background.paper",
           boxShadow: 24,
           p: 4,
         }}
-        className="rounded-lg"
+        className="rounded-lg md:w-[800px] w-screen"
       >
         <AppCard>
           <div className="text-2xl font-bold">Quiz</div>
